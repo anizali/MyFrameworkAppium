@@ -20,10 +20,10 @@ public class CalendarActions extends Hooks{
     public static void bookMeeting() {
         click(CalendarPage.workingFriday);
         sendKeys(CalendarPage.title, "Workshop");
-        Select datepickerStart = new Select(driver.findElement(CalendarPage.startTime));
+        /*Select datepickerStart = new Select(driver.findElement(CalendarPage.startTime));
         datepickerStart.selectByVisibleText("Fri, 26 Mar. 9:30 am");
         Select datepickerEnd = new Select(driver.findElement(CalendarPage.startTime));
-        datepickerEnd.selectByVisibleText("Fri, 26 Mar. 1:30 pm");
+        datepickerEnd.selectByVisibleText("Fri, 26 Mar. 1:30 pm");*/
 
     }
 
